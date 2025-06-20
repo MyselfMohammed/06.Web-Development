@@ -1,0 +1,42 @@
+Step1: conda create --name projectName
+
+Step2:activate projectName
+
+Step3: conda install spyder=4.0.0
+
+Step4: conda install python=3.9
+
+Step5: follow below library
+
+
+pip install numpy==1.17.4
+pip install pandas==0.25.3
+pip install scikit-learn==0.21.3
+pip install matplotlib==3.1.1
+pip install statsmodel
+Conda install jupyter notebook
+pip install django==3.0.2
+pip install django-crispy-forms==1.8.1
+pip install django-crispy-forms
+pip install crispy-bootstrap4
+
+
+Step6: Go to your Particular Folder
+
+Step7:cmd
+python manage.py migrate
+
+step8:cmd
+python manage.py makemigrations ckdApp
+
+Step9:procedure
+createsuperuser project
+
+Step10:
+python manage.py createsuperuser
+
+Step11:
+python manage.py migrate --run-syncdb
+
+step10:to run whole project
+python manage.py runserver

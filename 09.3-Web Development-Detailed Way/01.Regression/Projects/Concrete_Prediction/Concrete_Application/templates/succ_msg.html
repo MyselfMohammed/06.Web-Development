@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block body_block %}
+{% load static %}
+<div class="jumbotron">
+    <h1>Concrete Strength Predicion </h1>
+    <div class="fieldWrapper">
+      <h2>For the values</h2>
+      <p>Cement:{{data_Cement}}</p>
+      <p>Slag:{{data_Slag}}</p>
+      <p>Flyash:{{data_Flyash}}</p>
+      <p>Super Plasticizer:{{data_Super_Plasticizer}}</p>
+      <p>Coarse Plasticizer:{{data_Coarse_Aggregate}}</p>
+      <p>Fine Aggregate:{{data_Fine_Aggregate}}</p>
+      <p>Water:{{data_Water}}</p>
+      <p>Curing Age in Days:{{data_Curing_Age_in_Days}}</p>
+     
+      <br>
+      <p>Result of Concrete Strenght is :{{y_pred}}</p>
+    <br>
+</div>
+{% endblock %}
