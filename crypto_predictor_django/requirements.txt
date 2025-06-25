@@ -1,0 +1,17 @@
+asgiref==3.8.1
+Django==5.2.3
+joblib @ file:///C:/b/abs_f4b98l6lgk/croot/joblib_1718217224240/work
+mkl-service==2.4.0
+mkl_fft @ file:///C:/Users/dev-admin/mkl/mkl_fft_1730823082242/work
+mkl_random @ file:///C:/Users/dev-admin/mkl/mkl_random_1730822522280/work
+numpy @ file:///C:/b/abs_0123vcxhf8/croot/numpy_and_numpy_base_1725470331966/work/dist/numpy-2.0.1-cp310-cp310-win_amd64.whl#sha256=e824ec3b279f4c5207736c83ac2f2dc79b489e08501a4ea9e3fc178c45db289b
+pandas==2.3.0
+python-dateutil==2.9.0.post0
+pytz==2025.2
+scikit-learn @ file:///C:/b/abs_0dwalqot3o/croot/scikit-learn_1737988780693/work/dist/scikit_learn-1.6.1-cp310-cp310-win_amd64.whl#sha256=d1337168ee64380b26e38a8be42467bd0f3a1db3d3118e6244e11a2be8b05064
+scipy @ file:///C:/b/abs_71q96u23a4/croot/scipy_1747238057723/work/dist/scipy-1.15.3-cp310-cp310-win_amd64.whl#sha256=06013d45c5cad262bccdca1fbe5c25a720be04ae66dc83d75d1f749d118a7346
+six==1.17.0
+sqlparse==0.5.3
+threadpoolctl @ file:///C:/b/abs_def0dwqlft/croot/threadpoolctl_1719407816649/work
+typing_extensions==4.14.0
+tzdata==2025.2

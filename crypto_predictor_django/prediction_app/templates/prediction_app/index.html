@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crypto Prediction</title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Crypto Price Prediction</h2>
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit">Predict</button>
+        </form>
+        {% if prediction is not None %}
+            <h3>Prediction: {{ prediction }}</h3>
+        {% endif %}
+    </div>
+</body>
+</html>
